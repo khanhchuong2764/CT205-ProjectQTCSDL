@@ -1,0 +1,117 @@
+.nav-title {
+    color: rgba(240, 248, 255, 0.553);
+}
+.nav-treeview .nav-item i {
+    font-size: 5px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ShowAlert */
+
+[show-alert] {
+    position: fixed;
+    top:55px;
+    right: 15px;
+    z-index: 999;
+}
+[show-alert].alert-hidden {
+    display: none;
+}
+ .closedalert {
+    font-size: 15px;
+    margin-left: 10px;
+    width: 25px;
+    display: inline-block;
+    padding: 10px;
+}
+.closedalert:hover {
+    cursor: pointer;
+}
+/* End Show */
+
+/* PreView Upload Image */
+.imguploads {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+} 
+.imguploads[src=""] {
+    display: none;
+}
+.btn-delete-uploads {
+    margin-left: 20px;
+}
+.button-hidden {
+    display: none;
+}
+.show-alert {
+    font-size: 20px;
+}
+
+
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Căn giữa các mục theo chiều dọc */
+}
+
+.nav-item p {
+    margin: 0; /* Loại bỏ khoảng cách mặc định của thẻ p */
+    padding-right: 15px; /* Khoảng cách giữa các mục */
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    margin-right: 15px; /* Khoảng cách giữa các mục */
+    display: flex;
+    align-items: center;
+}
+.card-body::after, .card-footer::after, .card-header::after {
+    display: none;
+    
+}
+
+/* CSS */
+
+table {
+    width: 100%; /* Đặt chiều rộng bảng bằng 100% */
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Khoảng cách giữa các hàng */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px; /* Padding đều cho trên, dưới, trái, phải */
+    text-align: center;
+}
+
+tbody tr {
+    background-color: #f9f9f9; /* Màu nền cho hàng */
+    border-radius: 8px; /* Bo tròn các góc của hàng */
+}
+
+input[type="checkbox"],
+input[type="number"] {
+    margin: 0; /* Loại bỏ khoảng cách */
+    transform: scale(1); /* Tăng kích thước checkbox */
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.btn123 {
+    margin: 0 5px; /* Khoảng cách giữa các nút */
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
